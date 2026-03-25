@@ -1,0 +1,14 @@
+On Desktop created a directory DMI
+Cd into DMI and created a directory w2dmicohort  ( this is to prevent DMI folder 
+from becoming a git repo. the naming convention helps for easy of navigation) 
+On github created a new repo called w2dmicohort
+cd into w2dmicohort on cli and ran the instructions displayed on gihub to create a new local repo
+ran command cd .. to get back to the folder DMI
+git cloned the repo i wanted to work with 
+ran command mv cloned-repo-name/* w2dmicohort/  (this copies all the files in the cloned repo to w2dmicohort)
+
+Step #1
+On AWS, create a Ubuntu-linux based EC2 instance that allows ssh traffic from port 22 and http traffic from port #80 using SG
+ssh into the instance from your local system by navigating to the location of your pem key and run the following commands
+chmod 400 "<key-name>.pem"
+ssh -i "<key-name>.pem" ubuntu@<public-ip-of instance>
