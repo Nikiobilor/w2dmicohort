@@ -125,7 +125,7 @@ Nginx is the web server that will serve your React app to the internet.
 
 2. Clone the React app repository:
 ```
-   git clone https://github.com/pravinmishraaws/my-react-app.git
+   git clone https://github.com/Nikiobilor/w2dmicohort.git
 ```
 
 3. Move into the project folder:
